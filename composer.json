@@ -1,0 +1,18 @@
+{
+    "name": "reativ/verb",
+    "version": "0.0.1",
+    "description": "Reativ PHP framework focused on HTTP concepts",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Reativ\\Verb\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Francisco Costa",
+            "email": "f.costa@reativ.com"
+        }
+    ],
+    "require": {}
+}
