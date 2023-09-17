@@ -53,15 +53,13 @@ composer create-project verb/verb
 To configure Verb, just create an `index.php` file and add the following code:
 
 ```php
-<?php
-
 use Reativ\Verb\Application;
 
-$app = new Application();
+$app = Application::getInstance();
 
 // Register routes
 $app->get('/', function () {
-    echo 'Hello, World!';
+    return 'Hello, World!';
 });
 
 // Run the application
